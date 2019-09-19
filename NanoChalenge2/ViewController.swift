@@ -41,7 +41,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         
         guard let pixxelBuffer: CVPixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else {return}
         
-        guard let model = try? VNCoreMLModel(for: SqueezeNet().model) else {return}
+        guard let model = try? VNCoreMLModel(for: people2().model) else {return}
         let request = VNCoreMLRequest(model: model)
         { (finishedReq, err) in
             
