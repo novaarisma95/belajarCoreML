@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>masuk ajalah</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>okeoke</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Your FaceID is needed</string>
 	<key>NSCameraUsageDescription</key>
 	<string>We need camera access</string>
 	<key>CFBundleDevelopmentRegion</key>

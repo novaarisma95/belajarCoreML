@@ -10,6 +10,7 @@
 		51811008233368AE008D8353 /* nova.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 51811007233368AE008D8353 /* nova.mlmodel */; };
 		5181100A23336A0E008D8353 /* people.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5181100923336A0E008D8353 /* people.mlmodel */; };
 		5181100C23336C3E008D8353 /* people2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5181100B23336C3E008D8353 /* people2.mlmodel */; };
+		518110102334989E008D8353 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181100F2334989E008D8353 /* LoginViewController.swift */; };
 		51818792233340D200A2107E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51818791233340D200A2107E /* AppDelegate.swift */; };
 		51818794233340D200A2107E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51818793233340D200A2107E /* ViewController.swift */; };
 		51818797233340D200A2107E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51818795233340D200A2107E /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		51811007233368AE008D8353 /* nova.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = nova.mlmodel; path = ../../../nova.mlmodel; sourceTree = "<group>"; };
 		5181100923336A0E008D8353 /* people.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = people.mlmodel; path = ../../../people.mlmodel; sourceTree = "<group>"; };
 		5181100B23336C3E008D8353 /* people2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = people2.mlmodel; path = ../../../people2.mlmodel; sourceTree = "<group>"; };
+		5181100F2334989E008D8353 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5181878E233340D200A2107E /* NanoChalenge2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoChalenge2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51818791233340D200A2107E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51818793233340D200A2107E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 			children = (
 				51818791233340D200A2107E /* AppDelegate.swift */,
 				51818793233340D200A2107E /* ViewController.swift */,
+				5181100F2334989E008D8353 /* LoginViewController.swift */,
 				518187A52333534200A2107E /* Resnet50.mlmodel */,
 				5181100B23336C3E008D8353 /* people2.mlmodel */,
 				51811007233368AE008D8353 /* nova.mlmodel */,
@@ -154,6 +157,7 @@
 				5181100C23336C3E008D8353 /* people2.mlmodel in Sources */,
 				5181100A23336A0E008D8353 /* people.mlmodel in Sources */,
 				518187A42333509500A2107E /* SqueezeNet.mlmodel in Sources */,
+				518110102334989E008D8353 /* LoginViewController.swift in Sources */,
 				518187A62333534200A2107E /* Resnet50.mlmodel in Sources */,
 				51818792233340D200A2107E /* AppDelegate.swift in Sources */,
 				51811008233368AE008D8353 /* nova.mlmodel in Sources */,
